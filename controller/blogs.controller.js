@@ -5,7 +5,7 @@ let blogs = [{
     password: "padd@123"
 }];
 
-
+console.log("Hello Wolrd")
 
 exports.getPost = (req, res) => {
     res.status(200).json({
